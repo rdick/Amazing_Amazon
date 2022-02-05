@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     if user&.authenticate params[:password]
       session[:user_id] = user.id
       flash[:success] = 'Logged In!'
-      redirect_to root_path
+      redirect_to products_path
     else
       flash[:danger] = 'Wrong Credentials'
       redirect_to new_session_path
