@@ -1,6 +1,6 @@
-# README
+# Amazon Clone
 
-# This was my largest major project with Rails before developing professionally. 
+### This was my largest major project with Rails before developing professionally. 
 
 This Ruby on Rails application is a clone of amazon. Users can view multiple products, check product reviews, and purchase products. This app also includes RSPEC testing, mailers, and a search function.
 
